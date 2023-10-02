@@ -23,7 +23,7 @@ echo "95ed514e89bace9726142cde060d9c59"  > /tmp/checksum_breed
     echo -e "Flash Layout : \n\`cat /proc/mtd\`\n"
 
     echo "Downloading Breed ..."
-    wget --content-disposition -O /tmp/breed.bin http://ghuseraccess.000webhostapp.com/?url=https://raw.githubusercontent.com/downloadajalahya101/fw-bl100-openwrt/blob/master/breed-bl201.bin
+    wget --content-disposition -O /tmp/breed.bin http://ghuseraccess.000webhostapp.com/?url=https://raw.githubusercontent.com/downloadajalahya101/fw-bl100-openwrt/master/breed-bl201.bin
 
     chmod +x /tmp/breed.bin
 
